@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "954643461867",
+    "project_id": "softinyotask",
+    "storage_bucket": "softinyotask.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:954643461867:android:6af6d615bec62225e570ae",
+        "android_client_info": {
+          "package_name": "com.example.softinyo_task"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "954643461867-3287hmk6q7vl4dtqtlg3cv7scfvoni8q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAt4NfED48vE7S0rsVcz6TxCjyvnXWL3Jo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "954643461867-3287hmk6q7vl4dtqtlg3cv7scfvoni8q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
