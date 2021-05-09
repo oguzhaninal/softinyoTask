@@ -80,12 +80,11 @@ class _SplashScreenState extends State<SplashScreen> {
 
   navigateUser() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
+
+    // API çalışmadığı için status değişkeni true ve giriş yapılmadığı halde ana sayfaya  yönlendiriyor. API çalıştığı takdirde false'a dönüştürerek deneyebilirsiniz.
     var status = prefs.getBool("isLoggedIn") ?? true;
 
     if (status) {
-      // userToken = prefs.getString("token");
-      // uName = prefs.getString("username");
-      // userId = prefs.getString("userid");
       Navigator.pushReplacement(
         context,
         MaterialPageRoute(
